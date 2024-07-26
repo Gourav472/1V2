@@ -35,6 +35,9 @@ module.exports = {
         light_black: "#141414",
         red: "#FF1212",
         sky_blue: "#3EBFFF",
+        gray: "#FFFFFF4D",
+        blur_black: "#FFFFFF08",
+        gray_border: "#FFFFFF45",
       },
       backgroundImage: {
         'header_bg': 'url(./assets/images/webp/header_bg.webp)',
@@ -44,8 +47,11 @@ module.exports = {
         'featured_bg': 'url(./assets/images/webp/featured_Bg.webp)',
         'impact_bg': 'url(./assets/images/webp/impact_Bg.webp)',
         'text_gradient': 'linear-gradient(108.48deg, #FF1E2F 8.2%, #3EBFFF 31.38%)',
+        'accordian_gradient': 'linear-gradient(0deg, #9E0000 -14.1%, #FF1212 123.08%)',
         'testimonial_bg': 'url(./assets/images/webp/testimonial_Bg.webp)',
         'testimonial_card': 'url(./assets/images/webp/testimonial_card.webp)',
+        'faq_bg': 'url(./assets/images/webp/faq_Bg.webp)',
+        'newsletter_bg': 'url(./assets/images/webp/newsletter_Bg.webp)',
       },
       backgroundSize: {
         "100%": "100% 100%",

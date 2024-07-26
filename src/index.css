@@ -60,26 +60,63 @@
 .featured_Slider .slick-track {
   display: flex;
   align-items: center;
+}
+
+.featured_Slider .slick-slide>div {
+  display: flex;
+  justify-content: center;
   gap: 24px;
 }
-.featured_Slider .slick-slide >div{
-display: flex;
-justify-content: center;
+
+.slick-dots {
+  position: absolute;
+  bottom: -50px;
+  display: flex;
+  align-items: center;
 }
 
-.custom-dots2 li button::before {
-  color: white !important;
-  opacity: 10%;
-  font-size: 12px !important;
+.slick-dots li.slick-active button:before {
+  font-size: 0;
 }
 
-.custom-dots2 li.slick-active button::before {
-  opacity: 1 !important;
+.slick-dots li button:before {
+  font-size: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.custom-dots2 li {
-  height: fit-content !important;
-  width: fit-content !important;
-  width: 12px !important;
-  height: 12px !important;
+.slick-dots li {
+  background: white;
+  opacity: 70%;
+  border-radius: 8px !important;
+  width: 58px !important;
+  height: 10px !important;
+  margin: 0px 1px;
+  cursor: pointer;
+  transition: all 200ms linear;
 }
+
+.slick-dots {
+  gap: 16px !important;
+  display: flex !important;
+}
+
+.slick-dots li.slick-active {
+  background: linear-gradient(90deg, #FF1E2F 0%, #3EBFFF 100%);
+  border-radius: 30px;
+  height: 10px;
+  width: 172px !important;
+}
+
+.testimonial_slider .slick-slide>div {
+  display: flex;
+  justify-content: center;
+}
+
+/* .featured_Slider .slick-slide {
+  margin: 0 12px !important;
+
+}
+.featured_Slider .slick-list {
+  margin: 0 -12px !important;
+} */

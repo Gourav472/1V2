@@ -8,7 +8,7 @@ import logo_Phon from '../assets/images/webp/logo_Phon.webp'
 import Slider from "react-slick";
 const LogoSlider = () => {
     var settings = {
-        dots: true,
+        dots: false,
         autoplay: true,
         variableWidth: true,
         arrows: false,
