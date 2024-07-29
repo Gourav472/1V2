@@ -30,6 +30,7 @@ module.exports = {
       },
       boxShadow: {
         "3xl": "3px 3px 0px 0px #0F2440",
+
       },
       colors: {
         light_black: "#141414",
@@ -38,11 +39,11 @@ module.exports = {
         gray: "#FFFFFF4D",
         blur_black: "#FFFFFF08",
         gray_border: "#FFFFFF45",
+        blur_gray: "#FFFFFF21",
       },
       backgroundImage: {
         'header_bg': 'url(./assets/images/webp/header_bg.webp)',
         'btn_bg': 'url(./assets/images/svg/common_BtnBg.svg)',
-        'btn_bg_second': 'url(./assets/images/svg/common_BtnBg2.svg)',
         'featured_sliderbg': 'url(./assets/images/webp/featured_SliderBg.webp)',
         'featured_bg': 'url(./assets/images/webp/featured_Bg.webp)',
         'impact_bg': 'url(./assets/images/webp/impact_Bg.webp)',
@@ -52,6 +53,8 @@ module.exports = {
         'testimonial_card': 'url(./assets/images/webp/testimonial_card.webp)',
         'faq_bg': 'url(./assets/images/webp/faq_Bg.webp)',
         'newsletter_bg': 'url(./assets/images/webp/newsletter_Bg.webp)',
+        'footer_bg': 'url(./assets/images/webp/footer_Bg.webp)',
+        'ellipse_bg': 'linear-gradient(90deg, #FF1E2F 0%, #3EBFFF 100%)',
       },
       backgroundSize: {
         "100%": "100% 100%",

@@ -3,6 +3,7 @@ import { Heading_Vector } from '../common/Icon'
 import Common_Btn from '../common/Common_Btn'
 import about_Image from '../assets/images/webp/About.webp'
 import about_bg from '../assets/images/webp/about_bg.webp'
+import gradient_Line from '../assets/images/webp/gradient_Line.png'
 const About = () => {
     return (
         <div className=' bg-black pt-[48px] sm:pt-[65px] md:pt-[85px] lg:pt-[125px] pb-[48px] sm:pb-[68px] md:pb-[80px] lg:pb-[99px] relative'>
@@ -31,9 +32,12 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
             <img className=' pointer-events-none max-w-[741px] w-full absolute right-0 top-[189px] z-10' src={about_bg} alt="about-bg" />
+            <div className=' pointer-events-none z-10 right-[-1%] top-[-5%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
+            <div className=' pointer-events-none z-10 bottom-0 left-[-1%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
+            <img className=' w-[27px] h-[292px] absolute z-10 max-md:hidden right-[40px] lg:hidden 2xl:block 2xl:right-[47px] bottom-[25%] lg:bottom-[14%] pointer-events-none' src={gradient_Line} alt="gradient-line" />
+
         </div>
     )
 }

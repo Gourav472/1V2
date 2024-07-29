@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Testimonials from './components/Testimonials';
 import Faq from './components/Faq';
 import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className=' overflow-hidden'>
@@ -20,6 +21,7 @@ function App() {
       <Testimonials />
       <Faq />
       <Newsletter />
+      <Footer />
     </div>
   );
 }

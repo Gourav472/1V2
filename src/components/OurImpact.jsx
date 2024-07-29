@@ -1,9 +1,11 @@
 import React from 'react'
 import { Heading_Vector2 } from '../common/Icon'
 import impact_Horse from '../assets/images/webp/impact_Horse.webp'
+import gradient_Line from '../assets/images/webp/gradient_Line.png'
+
 const OurImpact = () => {
     return (
-        <div className=' bg-impact_bg bg-cover 2xl:bg-100% bg-no-repeat pb-[48px] sm:pb-[68px] md:pb-[90px] lg:pb-[121px] -mt-[2px]'>
+        <div className=' relative bg-impact_bg bg-cover 2xl:bg-100% bg-no-repeat pb-[48px] sm:pb-[68px] md:pb-[90px] lg:pb-[121px] -mt-[2px]'>
             <div className=' flex justify-center'>
                 <div className=' relative inline-block'>
                     <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] leading-[40px] lg:leading-[54px] text-white text-center z-30'>Our Impact</h2>
@@ -12,7 +14,7 @@ const OurImpact = () => {
                     </div>
                 </div>
             </div>
-            <div className=' container max-w-[1164px]'>
+            <div className=' container max-w-[1164px] relative z-20'>
                 <div className=' flex flex-wrap flex-row mx-3 pt-[15px] sm:pt-[60px] md:pt-[80px] lg:pt-[102px]'>
                     <div className=' w-full 2xl:p-0 lg:w-3/12 px-3 flex justify-center lg:justify-start lg:items-center'>
                         <h2 className=' font-orbitron font-bold lg:text-[56px] text-[31px] leading-[40px] sm:text-[42px] sm:leading-[50px] md:text-[45px] md:leading-[55px] xl:text-[64px] lg:leading-[75px] xl:leading-[83px] text-white'>What 1v2 Studio</h2>
@@ -29,6 +31,9 @@ const OurImpact = () => {
                     </div>
                 </div>
             </div>
+            <div className=' pointer-events-none z-10 left-[-1%] top-[-5%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
+            <div className=' pointer-events-none z-10 right-[-1%] bottom-[-5%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
+            <img className=' w-[27px] h-[292px] absolute z-10 pointer-events-none bottom-[13px] left-2 max-md:hidden lg:hidden 2xl:block xl:left-[20px] 2xl:left-[59px]' src={gradient_Line} alt="gradient-line" />
 
         </div>
     )

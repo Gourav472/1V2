@@ -45,7 +45,7 @@ const HeaderSection = () => {
               <img className=' max-sm:max-w-[70px]' src={Navicon} alt="" />
             </a>
             <ul
-              className={` flex flex-col lg:flex-row items-center gap-[20px] lg:gap-[32px] max-lg:fixed max-lg:justify-center duration-300 ease-linear top-0 max-lg:-right-full max-lg:z-[90] bg-black max-lg:h-screen max-lg:w-full  ${show ? "" : " !right-0"
+              className={` flex flex-col lg:flex-row items-center gap-[20px] lg:gap-[32px] max-lg:fixed max-lg:justify-center custom_duration top-0 max-lg:-right-full max-lg:z-[90] bg-black max-lg:h-screen max-lg:w-full  ${show ? "" : " !right-0"
                 }`}
             >
               {NavitemData.map((item, index) => (
@@ -86,7 +86,7 @@ const HeaderSection = () => {
 
           </div>
         </div>
-        {/* <img className=' absolute top-0 left-[62px] bottom-2 pointer-events-none' src={gradient_Line} alt="" /> */}
+        <img className='w-[27px] h-[292px] absolute max-md:hidden lg:hidden 2xl:block md:left-[40px] lg:left-[62px] bottom-2 pointer-events-none' src={gradient_Line} alt="gradient-line" />
       </div>
     </>
   )

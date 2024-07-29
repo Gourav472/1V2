@@ -5,6 +5,7 @@ import bottom_Red from '../assets/images/svg/bottom_RedLine.svg'
 import testimonial_Women from '../assets/images/webp/testimonial_women.webp'
 import Slider from 'react-slick'
 import Featured from './Featured'
+import gradient_Line from '../assets/images/webp/gradient_Line.png'
 const Testimonials = () => {
     var settings3 = {
         arrows: false,
@@ -15,7 +16,7 @@ const Testimonials = () => {
         slidesToScroll: 1,
         fade: true,
         autoPlay: true,
-      appendDots: (dots) => (
+        appendDots: (dots) => (
             <div
                 style={{
                     position: "absolute",
@@ -32,7 +33,7 @@ const Testimonials = () => {
         ),
     };
     return (
-        <div className=' bg-testimonial_bg bg-cover 2xl:bg-100% pb-[80px] sm:pb-[120px] md:pb-[160px] lg:pb-[170px] -mt-[2px]'>
+        <div className=' relative bg-testimonial_bg bg-cover 2xl:bg-100% pb-[80px] sm:pb-[120px] md:pb-[160px] lg:pb-[170px] -mt-[2px]'>
             <div className=' flex justify-center'>
                 <div className=' relative inline-block'>
                     <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] leading-[40px] lg:leading-[54px] text-white text-center z-30'>Clients Testimonials</h2>
@@ -41,7 +42,7 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
-            <div className=' container max-w-[1164px]'>
+            <div className=' container max-w-[1164px] relative z-20'>
                 <div className=' testimonial_slider'>
                     <Slider {...settings3}>
                         <div className=' max-w-[570px] md:max-w-[768px] lg:max-w-[992px] mx-auto xl:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_60px_41px_59px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
@@ -131,6 +132,9 @@ const Testimonials = () => {
                     </Slider>
                 </div>
             </div>
+            <div className=' pointer-events-none z-10 left-[-1%] bottom-[-5%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
+            <div className=' pointer-events-none z-10 right-[-1%] bottom-[-5%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
+            <img className=' w-[27px] lg:h-[292px] absolute z-10 pointer-events-none max-md:hidden hidden 2xl:block right-[45px] lg:bottom-[-10%]' src={gradient_Line} alt="gradient-line" />
         </div>
     )
 }

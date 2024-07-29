@@ -48,11 +48,11 @@ const Faq = () => {
                     {faqs.map((faq, index) => (
                         <div
                             key={index}
-                            className={` overflow-hidden ease-linear duration-300 ${activeIndex === index ? " border-[1px] border-sky_blue bg-accordian_gradient shadow_border" : "border-transparent border-[1px]"} mt-6`}
+                            className={` overflow-hidden custom_duration  ${activeIndex === index ? " border-[1px] border-sky_blue bg-accordian_gradient shadow_border" : "border-transparent border-[1px]"} mt-6`}
                         >
                             <button
                                 onClick={() => toggleAccordion(index)}
-                                className={`${activeIndex === index ? "p-[8px_8px_0px_8px] lg:p-[21px_20px_0px_20px] border-transparent" : "p-2 lg:p-[21px_20px]"} w-full text-left bg-blur_black backdrop-blur-lg flex items-center justify-between border-[1px] border-gray transition duration-300 ease-in-out  `}
+                                className={`${activeIndex === index ? "p-[8px_8px_0px_8px] lg:p-[21px_20px_0px_20px] border-transparent" : "p-2 lg:p-[21px_20px]"} w-full text-left bg-blur_black backdrop-blur-lg flex items-center justify-between border-[1px] border-gray transition custom_duration `}
                             >
                                 <span className=" font-orbitron font-medium text-base leading-[24px] sm:text-[18px] md:text-[20px] md:leading-[26px] lg:text-2xl lg:leading-9 text-white">{faq.question}</span>
                                 <span className="float-right">
@@ -68,7 +68,7 @@ const Faq = () => {
 
                             </button>
                             <div
-                                className={`overflow-hidden ease-linear duration-300 ${activeIndex === index ? "h-auto" : "max-h-0"
+                                className={`overflow-hidden custom_duration ${activeIndex === index ? "h-auto" : "max-h-0"
                                     }`}
                             >
                                 <div className=" font-poppins font-normal text-[15px] leading-[20px] lg:text-[18px] lg:leading-[28px] opacity-70 text-white max-w-[759px] p-[2px_8px_8px_8px] lg:p-[6px_20px_17px_20px]">
