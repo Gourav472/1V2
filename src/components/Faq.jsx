@@ -34,7 +34,7 @@ const Faq = () => {
         setActiveIndex(activeIndex === index ? null : index);
     };
     return (
-        <div className=' bg-faq_bg bg-no-repeat -my-[2px] bg-cover xl:bg-100% pb-[58px] sm:pb-[88px] md:pb-[108px] lg:pb-[160px]'>
+        <div className=' bg-faq_bg bg-no-repeat -my-[2px] bg-cover xl:bg-100% pb-[58px] sm:pb-[88px] md:pb-[108px] lg:pb-[161px]'>
             <div className=' flex justify-center'>
                 <div className=' relative inline-block'>
                     <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] leading-[40px] lg:leading-[54px] text-white text-center z-30'>Faq</h2>
@@ -77,7 +77,6 @@ const Faq = () => {
                             </div>
                         </div>
                     ))}
-
 
                 </div>
             </div>

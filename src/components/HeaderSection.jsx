@@ -38,7 +38,7 @@ const HeaderSection = () => {
   };
   return (
     <>
-      <div className=' bg-header_bg relative bg-no-repeat bg-cover'>
+      <div className={` bg-header_bg relative bg-no-repeat bg-cover ${!show ? "min-h-screen" : ""}`}>
         <div className=' container max-w-[1164px] relative z-20 '>
           <div className=" flex justify-between items-center pt-[6px] pb-2">
             <a href="/">
@@ -59,9 +59,12 @@ const HeaderSection = () => {
                   </a>
                 </li>
               ))}
+              <li className="lg:hidden"><Common_Btn buttonName="Get Started" /></li>
             </ul>
             <div className=" flex items-center sm:gap-6 gap-3">
+              <div className=' max-md:hidden'>
               <Common_Btn buttonName="Get Started" />
+              </div>
               <div
                 class={` cursor-pointer relative z-[100] lg:hidden  max-sm:scale-75 ${show ? "" : "cross"
                   }`}
@@ -73,20 +76,18 @@ const HeaderSection = () => {
               </div>
             </div>
           </div>
-          <div className=' flex justify-center lg:justify-start pt-[100px] sm:pt-[130px] md:pt-[144px] pb-[100px] sm:pb-[130px] md:pb-[170px] lg:pb-[208px]'>
+          <div className=' flex justify-center lg:justify-start pt-[100px] sm:pt-[130px] md:pt-[144px] pb-[100px] sm:pb-[130px] md:pb-[170px] lg:pb-[236px]'>
             <div className=' flex flex-col relative z-20'>
-              <h1 className=' capitalize font-orbitron font-bold text-[38px] sm:text-5xl leading-[45px] sm:leading-[50px] md:text-5xl lg:text-7xl md:leading-[55px] lg:leading-[93px] text-white text-center lg:text-start'>Welcome to <span className='block'>1v2 Studio</span></h1>
+              <h1 className=' font-orbitron font-bold text-[38px] sm:text-5xl leading-[45px] sm:leading-[50px] md:text-5xl lg:text-7xl md:leading-[55px] lg:leading-[93px] text-white text-center lg:text-start'>Welcome to <span className='block'>1v2 Studio</span></h1>
               <p className='max-w-[500px] md:max-w-[600px] lg:max-w-[465px] opacity-70 font-poppins font-normal text-base md:text-xl leading-[22px] md:leading-8 text-white pt-3 sm:pt-4 text-center lg:text-start'>Leading the Way in Creating Unique and Innovative Experiences on Roblox.</p>
               <div className=' max-lg:mx-auto mt-7 sm:mt-8 md:mt-[42px]'>
                 <Common_Btn buttonName="Contact Us" />
               </div>
             </div>
             <img className='pointer-events-none z-10 max-w-[602px] opacity-50 lg:opacity-70 xl:opacity-100 lg:right-0 top-[126px] absolute w-full' src={Hero} alt="hero-image" />
-
-
           </div>
         </div>
-        <img className='w-[27px] h-[292px] absolute max-md:hidden lg:hidden 2xl:block md:left-[40px] lg:left-[62px] bottom-2 pointer-events-none' src={gradient_Line} alt="gradient-line" />
+        <img className='w-[27px] h-[292px] absolute max-md:hidden lg:hidden 2xl:block md:left-[40px] lg:left-[62px] bottom-[32px] pointer-events-none' src={gradient_Line} alt="gradient-line" />
       </div>
     </>
   )

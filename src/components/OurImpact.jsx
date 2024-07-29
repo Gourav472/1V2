@@ -5,11 +5,11 @@ import gradient_Line from '../assets/images/webp/gradient_Line.png'
 
 const OurImpact = () => {
     return (
-        <div className=' relative bg-impact_bg bg-cover 2xl:bg-100% bg-no-repeat pb-[48px] sm:pb-[68px] md:pb-[90px] lg:pb-[121px] -mt-[2px]'>
+        <div id='Portfolio' className=' relative bg-impact_bg bg-cover 2xl:bg-100% bg-no-repeat pb-[48px] sm:pb-[68px] md:pb-[90px] lg:pb-[121px] -mt-[2px]'>
             <div className=' flex justify-center'>
                 <div className=' relative inline-block'>
                     <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] leading-[40px] lg:leading-[54px] text-white text-center z-30'>Our Impact</h2>
-                    <div className=' max-sm:hidden pointer-events-none absolute -bottom-1 sm:bottom-[-16px] right-[-420%] sm:right-[-360%] md:right-[-272%] lg:right-[-241%] z-20'>
+                    <div className=' max-sm:hidden pointer-events-none absolute -bottom-1 sm:bottom-[-16px] right-[-420%] sm:right-[-360%] md:right-[-272%] lg:right-[-242%] z-20'>
                         < Heading_Vector2 />
                     </div>
                 </div>

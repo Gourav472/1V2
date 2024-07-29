@@ -33,7 +33,7 @@ const Testimonials = () => {
         ),
     };
     return (
-        <div className=' relative bg-testimonial_bg bg-cover 2xl:bg-100% pb-[80px] sm:pb-[120px] md:pb-[160px] lg:pb-[170px] -mt-[2px]'>
+        <div id='Testimonial' className=' relative bg-testimonial_bg bg-cover 2xl:bg-100% pb-[80px] sm:pb-[120px] md:pb-[160px] lg:pb-[184px] -mt-[2px]'>
             <div className=' flex justify-center'>
                 <div className=' relative inline-block'>
                     <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] leading-[40px] lg:leading-[54px] text-white text-center z-30'>Clients Testimonials</h2>
@@ -45,7 +45,7 @@ const Testimonials = () => {
             <div className=' container max-w-[1164px] relative z-20'>
                 <div className=' testimonial_slider'>
                     <Slider {...settings3}>
-                        <div className=' max-w-[570px] md:max-w-[768px] lg:max-w-[992px] mx-auto xl:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_60px_41px_59px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
+                        <div className=' max-w-[570px] md:max-w-[768px] lg:max-w-[992px] mx-auto xl:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
                             <div className='flex max-lg:flex-col max-lg:items-center max-lg gap-4 md:gap-7 lg:gap-10'>
                                 <div className=' flex flex-col pt-2 '>
                                     <div className=' relative inline-block max-lg:flex max-lg:justify-center'>
@@ -63,10 +63,10 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
+                                <img className='pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
-                        <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_60px_41px_59px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
+                        <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
                             <div className='flex max-lg:flex-col max-lg:items-center gap-4 md:gap-7 lg:gap-10'>
                                 <div className=' flex flex-col pt-2 '>
                                     <div className=' relative inline-block max-lg:flex max-lg:justify-center'>
@@ -87,7 +87,7 @@ const Testimonials = () => {
                                 <img className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
-                        <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_60px_41px_59px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
+                        <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
                             <div className='flex max-lg:flex-col max-lg:items-center gap-4 md:gap-7 lg:gap-10'>
                                 <div className=' flex flex-col pt-2 '>
                                     <div className=' relative inline-block max-lg:flex max-lg:justify-center'>
@@ -108,7 +108,7 @@ const Testimonials = () => {
                                 <img className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
-                        <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_60px_41px_59px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
+                        <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
                             <div className='flex max-lg:flex-col max-lg:items-center gap-4 md:gap-7 lg:gap-10'>
                                 <div className=' flex flex-col pt-2 '>
                                     <div className=' relative inline-block max-lg:flex max-lg:justify-center'>

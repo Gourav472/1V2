@@ -5,7 +5,7 @@ import gradient_Line from '../assets/images/webp/gradient_Line.png'
 
 const Footer = () => {
     return (
-        <div className=' relative -my-[2px] bg-footer_bg bg-no-repeat bg-cover 2xl:bg-100%'>
+        <div id='Contact' className=' relative -my-[2px] bg-footer_bg bg-no-repeat bg-cover 2xl:bg-100%'>
             <div className=' container max-w-[1164px] relative z-20'>
                 <div className=' flex flex-col items-center'>
                     <img className=' cursor-pointer pointer-events-none' src={logo} alt="footer-logo" />
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='h-[2px] w-full bg-blur_gray mt-8 md:mt-[43px]'></div>
-            <p className=' font-poppins font-medium text-base leading-[24px] text-center px-3 opacity-50 text-white pt-[22px] pb-[14px] cursor-pointer'>Copyright@2024 All right reserved</p>
+            <p className=' font-poppins font-medium text-base leading-[24px] text-center px-3 opacity-50 text-white pt-[22px] pb-[22.95px] cursor-pointer'>Copyright@2024 All right reserved</p>
             <div className=' pointer-events-none z-10 left-[-1%] bottom-[50%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
             <img className=' w-[27px] h-[292px] absolute z-10 pointer-events-none max-md:hidden right-[40px] lg:right-[68px] bottom-[20%] xl:bottom-[30%] ' src={gradient_Line} alt="gradient-line" />
 

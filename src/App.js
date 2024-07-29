@@ -12,7 +12,7 @@ import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div className=' overflow-hidden'>
+    <div className=' overflow-hidden max-w-[1920px] mx-auto'>
       <HeaderSection />
       <LogoSlider />
       <About />

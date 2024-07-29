@@ -1,6 +1,6 @@
 export const NavitemData = [
     {
-        href: "#Home",
+        href: "#",
         text: "Home",
         className: "navitems",
     },
