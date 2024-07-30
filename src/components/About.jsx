@@ -24,7 +24,7 @@ const About = () => {
                         <div className=' pointer-events-none bg-red max-w-[239px] w-full min-h-[239px] blur-[80px] -z-10 left-[30%] lg:left-[10%] top-[10%] absolute'>
                         </div>
                     </div>
-                    <div className=' w-full lg:w-6/12 max-xl:px-[12px] flex justify-center lg:justify-end    mt-[30px] md:mt-12'>
+                    <div className=' w-full lg:w-6/12 max-xl:px-[12px] flex justify-center lg:justify-end mt-[30px] md:mt-12'>
                         <div className=' flex flex-col'>
                             <div className=' relative inline-block max-lg:flex max-lg:justify-center'>
                                 <h3 className=' capitalize font-orbitron font-bold md:text-[32px] text-[24px] leading-[37px] md:leading-[48px] lg:text-[38px] lg:leading-[57px] text-white text-center lg:text-start'>Pushing Boundaries in <span className=' block lg:ps-6'>Gaming Innovation</span></h3>

@@ -45,7 +45,7 @@ const HeaderSection = () => {
               <img className=' max-sm:max-w-[70px]' src={Navicon} alt="" />
             </a>
             <ul
-              className={` flex flex-col lg:flex-row items-center gap-[20px] lg:gap-[32px] max-lg:fixed max-lg:justify-center custom_duration top-0 max-lg:-right-full max-lg:z-[90] bg-black max-lg:h-screen max-lg:w-full  ${show ? "" : " !right-0"
+              className={` flex flex-col lg:flex-row items-center gap-[20px] lg:gap-[32px] max-lg:fixed max-lg:justify-center custom_duration top-0 max-lg:-right-full max-lg:z-[90] max-lg:h-screen max-lg:w-full ${show ? "" : " !right-0"
                 }`}
             >
               {NavitemData.map((item, index) => (
@@ -63,10 +63,10 @@ const HeaderSection = () => {
             </ul>
             <div className=" flex items-center sm:gap-6 gap-3">
               <div className=' max-md:hidden'>
-              <Common_Btn buttonName="Get Started" />
+                <Common_Btn buttonName="Get Started" />
               </div>
               <div
-                class={` cursor-pointer relative z-[100] lg:hidden  max-sm:scale-75 ${show ? "" : "cross"
+                class={` cursor-pointer relative z-[100] lg:hidden max-sm:scale-75 ${show ? "" : "cross"
                   }`}
                 onClick={() => setShow(!show)}
               >

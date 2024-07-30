@@ -81,9 +81,9 @@ const Featured = () => {
             </div>
             <div className=' max-w-[1440px] w-full mx-auto featured_Slider pt-[30px] sm:pt-[55px] md:pt-[70px] lg:pt-[89px] relative z-20'>
                 <Slider {...settings2}>
-                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100%  bg-no-repeat'>
+                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100% bg-no-repeat'>
                         <img className='max-w-[324px] w-full' src={featured_Image1} alt="image1" />
-                        <div className=' flex items-center  gap-[10px] pt-3'>
+                        <div className=' flex items-center gap-[10px] pt-3'>
                             <div className=' flex items-center gap-[6.78px]'>
                                 <p className='font-poppins text-sky_blue font-bold text-[12px] sm:text-[14px] leading-[18px]'>300+</p>
                                 <p className='font-poppins text-white font-normal opacity-70 text-[12px] sm:text-[14px] leading-[18px]'>Active Players</p>
@@ -96,9 +96,9 @@ const Featured = () => {
                         <p className=' font-orbitron font-bold text-[20px] sm:text-[22px] md:text-[24px] leading-[27px] md:leading-[31px] text-white pt-2 sm:pt-4'>Lava Land</p>
                         <p className=' font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[28px] opacity-70 text-white pt-2 sm:pt-3'>Embark on thrilling adventures in a volcanic world, featuring unique challenges and excitement, crafted exclusively for players.</p>
                     </div>
-                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100%  bg-no-repeat'>
+                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100% bg-no-repeat'>
                         <img className='max-w-[324px] w-full' src={featured_Image2} alt="image1" />
-                        <div className=' flex items-center  gap-[10px] pt-3'>
+                        <div className=' flex items-center gap-[10px] pt-3'>
                             <div className=' flex items-center gap-[6.78px]'>
                                 <p className='font-poppins text-sky_blue font-bold text-[12px] sm:text-[14px] leading-[18px]'>300+</p>
                                 <p className='font-poppins text-white font-normal opacity-70 text-[12px] sm:text-[14px] leading-[18px]'>Active Players</p>
@@ -111,9 +111,9 @@ const Featured = () => {
                         <p className=' font-orbitron font-bold text-[20px] sm:text-[22px] md:text-[24px] leading-[27px] md:leading-[31px] text-white pt-2 sm:pt-4'>3D Maze</p>
                         <p className=' font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[28px] opacity-70 text-white pt-2 sm:pt-3'>Develop a 3D maze game in Roblox: a fun, challenging project that enhances creativity and problem-solving skills for students.</p>
                     </div>
-                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100%  bg-no-repeat'>
+                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100% bg-no-repeat'>
                         <img className='max-w-[324px] w-full' src={featured_Image3} alt="image1" />
-                        <div className=' flex items-center  gap-[10px] pt-3'>
+                        <div className=' flex items-center gap-[10px] pt-3'>
                             <div className=' flex items-center gap-[6.78px]'>
                                 <p className='font-poppins text-sky_blue font-bold text-[12px] sm:text-[14px] leading-[18px]'>400+</p>
                                 <p className='font-poppins text-white font-normal opacity-70 text-[12px] sm:text-[14px] leading-[18px]'>Active Players</p>
@@ -126,9 +126,9 @@ const Featured = () => {
                         <p className=' font-orbitron font-bold text-[20px] sm:text-[22px] md:text-[24px] leading-[27px] md:leading-[31px] text-white pt-2 sm:pt-4'>Dino Island</p>
                         <p className=' font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[28px] opacity-70 text-white pt-2 sm:pt-3'>Embark on an epic adventure in Dino Island, where you can explore a prehistoric world filled with dinosaurs and hidden treasures.</p>
                     </div>
-                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100%  bg-no-repeat'>
+                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100% g-no-repeat'>
                         <img className='max-w-[324px] w-full' src={featured_Image4} alt="image1" />
-                        <div className=' flex items-center  gap-[10px] pt-3'>
+                        <div className=' flex items-center gap-[10px] pt-3'>
                             <div className=' flex items-center gap-[6.78px]'>
                                 <p className='font-poppins text-sky_blue font-bold text-[12px] sm:text-[14px] leading-[18px]'>700+</p>
                                 <p className='font-poppins text-white font-normal opacity-70 text-[12px] sm:text-[14px] leading-[18px]'>Active Players</p>
@@ -141,9 +141,9 @@ const Featured = () => {
                         <p className=' font-orbitron font-bold text-[20px] sm:text-[22px] md:text-[24px] leading-[27px] md:leading-[31px] text-white pt-2 sm:pt-4'>Fireplace</p>
                         <p className=' font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[28px] opacity-70 text-white pt-2 sm:pt-3'>Experience cozy and adventurous gameplay around a virtual hearth, blending relaxation and excitement uniquely on Roblox.</p>
                     </div>
-                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100%  bg-no-repeat'>
+                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100% g-no-repeat'>
                         <img className='max-w-[324px] w-full' src={featured_Image5} alt="image1" />
-                        <div className=' flex items-center  gap-[10px] pt-3'>
+                        <div className=' flex items-center gap-[10px] pt-3'>
                             <div className=' flex items-center gap-[6.78px]'>
                                 <p className='font-poppins text-sky_blue font-bold text-[12px] sm:text-[14px] leading-[18px]'>800+</p>
                                 <p className='font-poppins text-white font-normal opacity-70 text-[12px] sm:text-[14px] leading-[18px]'>Active Players</p>
@@ -156,9 +156,9 @@ const Featured = () => {
                         <p className=' font-orbitron font-bold text-[20px] sm:text-[22px] md:text-[24px] leading-[27px] md:leading-[31px] text-white pt-2 sm:pt-4'>Cat Washing Tycoon</p>
                         <p className=' font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[28px] opacity-70 text-white pt-2 sm:pt-3'>Dive into the adorable world of cat care! Build and manage your own cat washing business, upgrade your facilities. </p>
                     </div>
-                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100%  bg-no-repeat'>
+                    <div className=' bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100% g-no-repeat'>
                         <img className='max-w-[324px] w-full' src={featured_Image6} alt="image1" />
-                        <div className=' flex items-center  gap-[10px] pt-3'>
+                        <div className=' flex items-center gap-[10px] pt-3'>
                             <div className=' flex items-center gap-[6.78px]'>
                                 <p className='font-poppins text-sky_blue font-bold text-[12px] sm:text-[14px] leading-[18px]'>300+</p>
                                 <p className='font-poppins text-white font-normal opacity-70 text-[12px] sm:text-[14px] leading-[18px]'>Active Players</p>
