@@ -84,7 +84,7 @@ const HeaderSection = () => {
                 <Common_Btn buttonName="Contact Us" />
               </div>
             </div>
-            <img className='pointer-events-none z-10 max-w-[602px] opacity-50 lg:opacity-70 xl:opacity-100 lg:right-0 top-[126px] absolute w-full' src={Hero} alt="hero-image" />
+            <img rel='preload' className='pointer-events-none z-10 max-w-[602px] opacity-50 lg:opacity-70 xl:opacity-100 lg:right-0 top-[126px] absolute w-full' src={Hero} alt="hero-image" />
           </div>
         </div>
         <img className='w-[27px] h-[292px] absolute max-md:hidden lg:hidden 2xl:block md:left-[40px] lg:left-[62px] bottom-[32px] pointer-events-none' src={gradient_Line} alt="gradient-line" />

@@ -20,7 +20,7 @@ const About = () => {
             <div className=' container max-w-[1164px] relative z-20'>
                 <div className=' flex flex-wrap flex-row mx-[-12px] pt-[30px] sm:pt-[55px] md:pt-[70px] lg:pt-[97px]'>
                     <div className=' w-full flex justify-center lg:justify-start lg:items-center lg:w-6/12 max-xl:px-[12px] relative'>
-                        <img className=' pointer-events-none max-w-[517px] w-full' src={about_Image} alt="about-image" />
+                        <img rel='preload' className=' pointer-events-none max-w-[517px] w-full' src={about_Image} alt="about-image" />
                         <div className=' pointer-events-none bg-red max-w-[239px] w-full min-h-[239px] blur-[80px] -z-10 left-[30%] lg:left-[10%] top-[10%] absolute'>
                         </div>
                     </div>
