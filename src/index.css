@@ -119,7 +119,9 @@
     width: 10px !important;
     margin: 0px 4px !important;
   }
-
+  .featured_Slider .slick-slide > div {
+    display: flex !important; justify-content: center !important;
+  }
 }
 
 @media (min-width:1920px) {
