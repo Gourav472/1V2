@@ -37,8 +37,8 @@ const Faq = () => {
         <div className=' bg-faq_bg bg-no-repeat -my-[2px] bg-cover xl:bg-100% pb-[58px] sm:pb-[88px] md:pb-[108px] lg:pb-[161px]'>
             <div className=' flex justify-center'>
                 <div className=' relative inline-block'>
-                    <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] leading-[40px] lg:leading-[54px] text-white text-center z-30'>Faq</h2>
-                    <div className=' max-sm:hidden pointer-events-none absolute -bottom-1 sm:bottom-[-16px] right-[-1000] sm:right-[-1115%] md:right-[-870%] lg:right-[-780%] z-20'>
+                    <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] uppercase leading-[40px] lg:leading-[54px] text-white text-center z-30'>Faq</h2>
+                    <div className=' max-sm:hidden pointer-events-none absolute -bottom-1 sm:bottom-[-16px] right-[-1000] sm:right-[-940%] md:right-[-730%] lg:right-[-655%] z-20'>
                         < Heading_Vector4 />
                     </div>
                 </div>
