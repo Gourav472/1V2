@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/svg/navicon.svg'
 import { Discord, Twitter } from '../common/Icon'
-import gradient_Line from '../assets/images/webp/gradient_Line.png'
+import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 
 const Footer = () => {
     return (

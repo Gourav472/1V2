@@ -5,7 +5,7 @@ import bottom_Red from '../assets/images/svg/bottom_RedLine.svg'
 import testimonial_Women from '../assets/images/webp/testimonial_women.webp'
 import Slider from 'react-slick'
 import Featured from './Featured'
-import gradient_Line from '../assets/images/webp/gradient_Line.png'
+import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 const Testimonials = () => {
     var settings3 = {
         arrows: false,

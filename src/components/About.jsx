@@ -3,7 +3,7 @@ import { Heading_Vector } from '../common/Icon'
 import Common_Btn from '../common/Common_Btn'
 import about_Image from '../assets/images/webp/About.webp'
 import about_bg from '../assets/images/webp/about_bg.webp'
-import gradient_Line from '../assets/images/webp/gradient_Line.png'
+import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 import top_Red from '../assets/images/svg/top_RedLine.svg'
 import bottom_Red from '../assets/images/svg/bottom_RedLine.svg'
 const About = () => {

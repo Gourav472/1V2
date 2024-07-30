@@ -1,7 +1,7 @@
 import React from 'react'
 import Common_Btn from '../common/Common_Btn'
 import white_Man from '../assets/images/webp/Body.webp'
-import gradient_Line from '../assets/images/webp/gradient_Line.png'
+import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 
 const Newsletter = () => {
     return (

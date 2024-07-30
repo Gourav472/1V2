@@ -3,7 +3,7 @@ import Navicon from '../assets/images/svg/navicon.svg'
 import { NavitemData } from '../common/Helper';
 import Common_Btn from '../common/Common_Btn';
 import Hero from '../assets/images/webp/hero.webp'
-import gradient_Line from '../assets/images/webp/gradient_Line.png'
+import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 const HeaderSection = () => {
   const [show, setShow] = useState(true);
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Heading_Vector2 } from '../common/Icon'
 import impact_Horse from '../assets/images/webp/impact_Horse.webp'
-import gradient_Line from '../assets/images/webp/gradient_Line.png'
+import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 
 const OurImpact = () => {
     return (
