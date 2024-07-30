@@ -12,13 +12,15 @@ const Featured = () => {
         arrows: false,
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         variableWidth: true,
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
-       
+
             {
                 breakpoint: 1200,
                 settings: {

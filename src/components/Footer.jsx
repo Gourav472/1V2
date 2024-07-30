@@ -8,7 +8,7 @@ const Footer = () => {
         <div id='Contact' className=' relative -my-[2px] bg-footer_bg bg-no-repeat bg-cover 2xl:bg-100%'>
             <div className=' container max-w-[1164px] relative z-20'>
                 <div className=' flex flex-col items-center'>
-                    <img className=' cursor-pointer pointer-events-none' src={logo} alt="footer-logo" />
+                    <a href="/"><img src={logo} alt="footer-logo" /></a>
                     <p className=' max-w-[538px] font-poppins font-normal text-base md:text-[18px] leading-[22px] md:leading-[28px] text-center text-white opacity-70 pt-5'>Nulla sollicitudin nullam in scelerisque. Dolor neque pulvinar porttitor id eget volutpat faucibus sed. Tellus libero.</p>
                     <div className=' flex items-center gap-5 pt-4'>
                         <a href="https://x.com/?lang=en" target='_blank' className='w-[43px] h-[43px] rounded-full hover:translate-y-2 custom_duration bg-red border-[2.46px] border-sky_blue flex items-center justify-center'>
@@ -19,6 +19,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
+            
             </div>
             <div className='h-[2px] w-full bg-blur_gray mt-8 md:mt-[43px]'></div>
             <p className=' font-poppins font-medium text-base leading-[24px] text-center px-3 opacity-50 text-white pt-[22px] pb-[22.95px] cursor-pointer'>Copyright@2024 All right reserved</p>
