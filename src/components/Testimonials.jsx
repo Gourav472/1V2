@@ -64,7 +64,7 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img className='pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
+                                <img rel='preload' className='pointer-events-none w-full max-w-[240px] sm:max-w-[289px] xl:w-[289px] xl:h-[328px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
                         <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
@@ -85,7 +85,7 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
+                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
                         <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
@@ -106,7 +106,7 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
+                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] xl:w-[289px] xl:h-[328px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
                         <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
@@ -127,7 +127,7 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
+                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] xl:w-[289px] xl:h-[328px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
                     </Slider>

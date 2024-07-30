@@ -20,7 +20,7 @@ const OurImpact = () => {
                         <h2 className=' font-orbitron font-bold lg:text-[56px] text-[31px] leading-[40px] sm:text-[42px] sm:leading-[50px] md:text-[45px] md:leading-[55px] xl:text-[64px] lg:leading-[75px] xl:leading-[83px] text-white'>What 1v2 Studio</h2>
                     </div>
                     <div className=' w-full 2xl:p-0 md:w-8/12 lg:w-6/12 px-3 flex justify-center lg:justify-center max-md:mt-[25px] max-lg:mt-[48px]'>
-                        <img className=' pointer-events-none max-w-[360px] sm:max-w-[410px] md:max-w-[445px] w-full' src={impact_Horse} alt="horse" />
+                        <img className=' pointer-events-none max-w-[360px] sm:max-w-[410px] md:max-w-[445px] xl:w-[445px] xl:h-[433px] w-full' src={impact_Horse} alt="horse" />
                     </div>
                     <div className=' w-full 2xl:p-0 max-md:justify-center md:w-4/12 lg:w-3/12 px-3 flex max-sm:mt-[20px] max-md:mt-[30px] items-center'>
                         <div className=' flex flex-col gap-0 lg:gap-[14px]'>
