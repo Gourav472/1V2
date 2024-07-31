@@ -18,7 +18,8 @@ const PreLoader = () => {
 
     if (!visible) return null;
     return (
-        <section className=' min-h-screen w-full bg-black z-30 fixed top-0 left-0 grid place-items-center'>
+
+        <div className=' min-h-screen w-full bg-black z-30 fixed top-0 left-0 grid place-items-center'>
             <div className=' animate-pulse flex flex-col items-center'>
                 <h1 className='text-[52px] sm:text-[70px] md:text-[80px] font-bold font-orbitron !bg-clip-text !text-transparent !bg-text_gradient text-white'>1v2 <span className='!bg-clip-text !text-transparent !bg-text_gradient'>Studio</span></h1>
                 <div aria-label="Loading..." role="status" class="flex items-center space-x-2">
@@ -41,7 +42,7 @@ const PreLoader = () => {
                     <span class=" text-3xl sm:text-4xl font-bold font-orbitron text-transparent bg-clip-text bg-text_gradient">Loading...</span>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 
