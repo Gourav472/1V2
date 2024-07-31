@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import Faq from './components/Faq';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
+import BacktoTop from './components/BacktoTop';
 function App() {
   return (
     <div className=' overflow-hidden max-w-[1920px] mx-auto'>
@@ -22,6 +23,7 @@ function App() {
       <Faq />
       <Newsletter />
       <Footer />
+      <BacktoTop />
     </div>
   );
 }

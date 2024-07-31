@@ -9,7 +9,7 @@ const OurImpact = () => {
             <div className=' flex justify-center'>
                 <div className=' relative inline-block'>
                     <h2 className=' font-orbitron font-bold text-[26px] sm:text-[30px] md:text-[38px] lg:text-[42px] leading-[40px] lg:leading-[54px] text-white text-center z-30'>Our Impact</h2>
-                    <div className=' max-sm:hidden pointer-events-none absolute -bottom-1 sm:bottom-[-16px] right-[-420%] sm:right-[-360%] md:right-[-272%] lg:right-[-242%] z-20'>
+                    <div className=' max-sm:hidden pointer-events-none absolute -bottom-1 sm:bottom-[-13px] right-[-420%] sm:right-[-360%] md:right-[-272%] lg:right-[-242%] z-20'>
                         < Heading_Vector2 />
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const OurImpact = () => {
             </div>
             <div className=' pointer-events-none z-10 left-[-1%] top-[-5%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
             <div className=' pointer-events-none z-10 right-[-1%] bottom-[-5%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
-            <img className=' w-[27px] h-[292px] absolute z-10 pointer-events-none bottom-[13px] left-2 max-md:hidden lg:hidden 2xl:block xl:left-[20px] 2xl:left-[59px]' src={gradient_Line} alt="gradient-line" />
+            <img className=' w-[27px] h-[292px] absolute z-10 pointer-events-none bottom-[13px] left-2 max-xl:hidden xl:left-[20px] 2xl:left-[59px]' src={gradient_Line} alt="gradient-line" />
 
         </div>
     )

@@ -48,7 +48,7 @@
 }
 
 .custom_duration {
-  transition: all 300ms linear;
+  transition: all 300ms linear !important;
 }
 
 .logo_Slider .slick-track {
@@ -119,8 +119,23 @@
     width: 10px !important;
     margin: 0px 4px !important;
   }
-  .featured_Slider .slick-slide > div {
-    display: flex !important; justify-content: center !important;
+
+  .featured_Slider .slick-slide>div {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width:472px) {
+  .max_es_top {
+    top: 50% !important;
+    right: 22%;
+    max-width: 170px !important;
+  }
+
+  .max_es_bottom {
+    right: 22% !important;
+    max-width: 170px !important;
   }
 }
 

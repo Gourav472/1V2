@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navicon from '../assets/images/svg/navicon.svg'
 import { NavitemData } from '../common/Helper';
-import Common_Btn from '../common/Common_Btn';
+import CommonBtn from '../common/CommonBtn';
 import Hero from '../assets/images/webp/hero.webp'
 import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 const HeaderSection = () => {
@@ -59,11 +59,11 @@ const HeaderSection = () => {
                   </a>
                 </li>
               ))}
-              <li className="lg:hidden"><Common_Btn buttonName="Get Started" /></li>
+              <li className="lg:hidden"><CommonBtn buttonName="Get Started" /></li>
             </ul>
             <div className=" flex items-center sm:gap-6 gap-3">
               <div className=' max-md:hidden'>
-                <Common_Btn buttonName="Get Started" />
+                <CommonBtn buttonName="Get Started" />
               </div>
               <div
                 class={` cursor-pointer relative z-[100] lg:hidden max-sm:scale-75 ${show ? "" : "cross"
@@ -81,7 +81,7 @@ const HeaderSection = () => {
               <h1 className=' font-orbitron font-bold text-[38px] sm:text-5xl leading-[45px] sm:leading-[50px] md:text-5xl lg:text-7xl md:leading-[55px] lg:leading-[93px] text-white text-center lg:text-start'>Welcome to <span className='block'>1v2 Studio</span></h1>
               <p className='max-w-[500px] md:max-w-[600px] lg:max-w-[465px] opacity-70 font-poppins font-normal text-base md:text-xl leading-[22px] md:leading-8 text-white pt-3 sm:pt-4 text-center lg:text-start'>Leading the Way in Creating Unique and Innovative Experiences on Roblox.</p>
               <div className=' max-lg:mx-auto mt-7 sm:mt-8 md:mt-[42px]'>
-                <Common_Btn buttonName="Contact Us" />
+                <CommonBtn buttonName="Contact Us" />
               </div>
             </div>
             <img rel='preload' className='pointer-events-none z-10 max-w-[602px] opacity-50 lg:opacity-70 xl:opacity-100 lg:right-0 top-[126px] absolute w-full' src={Hero} alt="hero-image" />

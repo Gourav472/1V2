@@ -1,6 +1,6 @@
 import React from 'react'
 import { Heading_Vector } from '../common/Icon'
-import Common_Btn from '../common/Common_Btn'
+import CommonBtn from '../common/CommonBtn'
 import about_Image from '../assets/images/webp/About.webp'
 import about_bg from '../assets/images/webp/about_bg.webp'
 import gradient_Line from '../assets/images/webp/gradient_Line.webp'
@@ -33,7 +33,7 @@ const About = () => {
                             </div>
                             <p className=' opacity-70 max-w-[700px] lg:max-w-[535px] font-poppins font-normal text-base lg:text-[18px] leading-[22px] lg:leading-7 text-white pt-[12px] md:pt-[18px] text-center lg:text-start'>We are an indie game development studio dedicated to crafting innovative experiences on the Roblox platform. Our passion for creativity and excellence drives us to push the boundaries of what’s possible in gaming.</p>
                             <div className=' flex justify-center lg:justify-start mt-7 sm:mt-8 md:mt-[42px]'>
-                                <Common_Btn buttonName="Read More" />
+                                <CommonBtn buttonName="Read More" />
                             </div>
                         </div>
                     </div>

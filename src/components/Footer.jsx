@@ -24,7 +24,7 @@ const Footer = () => {
             <div className='h-[2px] w-full bg-blur_gray mt-8 md:mt-[43px]'></div>
             <p className=' font-poppins font-medium text-base leading-[24px] text-center px-3 opacity-50 text-white pt-[22px] pb-[22.95px] cursor-pointer'>Copyright@2024 All right reserved</p>
             <div className=' pointer-events-none z-10 left-[-1%] bottom-[50%] absolute bg-ellipse_bg w-[110px] h-[110px] blur-[80px]'></div>
-            <img className=' w-[27px] h-[292px] absolute z-10 pointer-events-none max-md:hidden right-[40px] lg:right-[68px] bottom-[20%] xl:bottom-[30%] ' src={gradient_Line} alt="gradient-line" />
+            <img className=' w-[27px] h-[292px] absolute z-10 pointer-events-none max-xl:hidden right-[40px] lg:right-[68px] bottom-[20%] xl:bottom-[30%] ' src={gradient_Line} alt="gradient-line" />
 
         </div>
     )
