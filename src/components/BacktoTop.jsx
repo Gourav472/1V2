@@ -26,7 +26,7 @@ const BacktoTop = () => {
 
     return (
         <div className=" container relative">
-            <div onClick={scrolltotop} className=" fixed z-40 mx-auto  flex items-center justify-center animate-bounce cursor-pointer bottom-[10%] md:bottom-1 right-2 duration-300 ease-linear  " style={{ display: visible ? 'grid' : 'none' }}>
+            <div onClick={scrolltotop} className=" fixed z-30 mx-auto  flex items-center justify-center animate-bounce cursor-pointer bottom-[10%] md:bottom-1 right-2 duration-300 ease-linear  " style={{ display: visible ? 'grid' : 'none' }}>
                 <img className=' max-w-[50px]' src={up_Arrow} alt="Scroll" />
             </div>
         </div>
