@@ -28,23 +28,34 @@
   transform: rotate(-45deg) translateY(-13px) translateX(4px);
 }
 
-
-.custom_Top:hover::after {
+.custom_Top::after {
   content: url(./assets/images/svg/top_icon.svg);
   position: absolute;
   top: -5px;
   left: -13px;
   width: 73px;
   height: 14px;
+  opacity: 0;
+  transition: all 300ms linear !important;
 }
 
-.custom_Bottom:hover::before {
+.custom_Bottom::before {
   content: url(./assets/images/svg/bottom_icon.svg);
   position: absolute;
   bottom: 0px;
   right: -10px;
   width: 73px;
   height: 14px;
+  opacity: 0;
+  transition: all 300ms linear !important;
+}
+
+.custom_Top:hover::after {
+  opacity: 1;
+}
+
+.custom_Bottom:hover::before {
+  opacity: 1;
 }
 
 .custom_duration {
@@ -56,7 +67,6 @@
   align-items: center;
   gap: 50.33px;
 }
-
 
 .featured_Slider .slick-track .slick-slide {
   margin: 0 12px !important;
