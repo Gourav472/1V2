@@ -3,9 +3,6 @@ import { Heading_Vector3, Star } from '../common/Icon'
 import top_Red from '../assets/images/svg/top_RedLine.svg'
 import bottom_Red from '../assets/images/svg/bottom_RedLine.svg'
 import testimonial_Women from '../assets/images/webp/testimonial_women.webp'
-import testimonial_Women2 from '../assets/images/webp/testimonial_Women2.webp'
-import testimonial_Man from '../assets/images/webp/testimonial_Man.webp'
-import testimonial_Man2 from '../assets/images/webp/testimonial_Man2.webp'
 import Slider from 'react-slick'
 import gradient_Line from '../assets/images/webp/gradient_Line.webp'
 const Testimonials = () => {
@@ -77,7 +74,7 @@ const Testimonials = () => {
                                         <img className='max-sm:max-w-[250px] max-md:max-w-[300px] max-lg:w-[350px] absolute top-[-6px] lg:left-[-22px]' src={top_Red} alt="redline" />
                                         <img className='max-sm:max-w-[250px] max-md:max-w-[300px] max-lg:w-[350px] absolute bottom-[-6px] lg:left-[-4%]' src={bottom_Red} alt="redline" />
                                     </div>
-                                    <p className=' opacity-70 max-w-[700px] lg:max-w-[621px] font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[25px] lg:text-[24px] lg:leading-[36px] text-white pt-5 lg:pt-[16px] max-lg:text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quo veritatis praesentium blanditiis asperiores voluptas eos, atque, nisi consequatur minus quibusdam? Nostrum suscipit iure quidem pariatur repellendus fugit neque!</p>
+                                    <p className=' opacity-70 max-w-[700px] lg:max-w-[621px] font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[25px] lg:text-[24px] lg:leading-[36px] text-white pt-5 lg:pt-[16px] max-lg:text-center'>Dolor minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit sintie.</p>
                                     <div className=' flex items-center max-lg:justify-center gap-[6px] pt-3 md:pt-6'>
                                         <Star />
                                         <Star />
@@ -87,7 +84,7 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' src={testimonial_Man} alt="women" />
+                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] border-white xl:w-[289px] xl:h-[328px] rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
                         <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
@@ -98,7 +95,7 @@ const Testimonials = () => {
                                         <img className='max-sm:max-w-[250px] max-md:max-w-[300px] max-lg:w-[350px] absolute top-[-6px] lg:left-[-22px]' src={top_Red} alt="redline" />
                                         <img className='max-sm:max-w-[250px] max-md:max-w-[300px] max-lg:w-[350px] absolute bottom-[-6px] lg:left-[-4%]' src={bottom_Red} alt="redline" />
                                     </div>
-                                    <p className=' opacity-70 max-w-[700px] lg:max-w-[621px] font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[25px] lg:text-[24px] lg:leading-[36px] text-white pt-5 lg:pt-[16px] max-lg:text-center'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit mollit.</p>
+                                    <p className=' opacity-70 max-w-[700px] lg:max-w-[621px] font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[25px] lg:text-[24px] lg:leading-[36px] text-white pt-5 lg:pt-[16px] max-lg:text-center'>Sint minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit aliqu.</p>
                                     <div className=' flex items-center max-lg:justify-center gap-[6px] pt-3 md:pt-6'>
                                         <Star />
                                         <Star />
@@ -108,7 +105,7 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] xl:w-[289px] xl:h-[328px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women2} alt="women" />
+                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] xl:w-[289px] xl:h-[328px] sm:max-w-[289px] border-[2px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
                         <div className=' max-w-[570px] md:max-w-[768px] mx-auto lg:max-w-[1041px] w-full p-[35px_20px_20px_20px] md:p-[40px_25px_25px_25px] lg:p-[42px_56px_41px_55px] backdrop-blur-md bg-testimonial_card bg-100% bg-no-repeat mt-[30px] sm:mt-[60px] md:mt-[80px] lg:mt-[113px]'>
@@ -119,7 +116,7 @@ const Testimonials = () => {
                                         <img className='max-sm:max-w-[250px] max-md:max-w-[300px] max-lg:w-[350px] absolute top-[-6px] lg:left-[-22px]' src={top_Red} alt="redline" />
                                         <img className='max-sm:max-w-[250px] max-md:max-w-[300px] max-lg:w-[350px] absolute bottom-[-6px] lg:left-[-4%]' src={bottom_Red} alt="redline" />
                                     </div>
-                                    <p className=' opacity-70 max-w-[700px] lg:max-w-[621px] font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[25px] lg:text-[24px] lg:leading-[36px] text-white pt-5 lg:pt-[16px] max-lg:text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste cum laudantium quidem deserunt commodi numquam laborum? Aliquam tenetur, harum velit unde ullam, accusantium earum quidem modi porro voluptatibus deserunt.</p>
+                                    <p className=' opacity-70 max-w-[700px] lg:max-w-[621px] font-poppins font-normal text-base leading-[22px] md:text-[18px] md:leading-[25px] lg:text-[24px] lg:leading-[36px] text-white pt-5 lg:pt-[16px] max-lg:text-center'>Desr minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Velit officia consequat duis enim velit conq.</p>
                                     <div className=' flex items-center max-lg:justify-center gap-[6px] pt-3 md:pt-6'>
                                         <Star />
                                         <Star />
@@ -129,7 +126,7 @@ const Testimonials = () => {
                                         <Star />
                                     </div>
                                 </div>
-                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] xl:w-[289px] xl:h-[328px] border-white rounded-[20px]' src={testimonial_Man2} alt="women" />
+                                <img rel='preload' className=' pointer-events-none w-full max-w-[240px] sm:max-w-[289px] border-[2px] xl:w-[289px] xl:h-[328px] border-white rounded-[20px]' src={testimonial_Women} alt="women" />
                             </div>
                         </div>
                     </Slider>
