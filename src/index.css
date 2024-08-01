@@ -29,7 +29,7 @@
 }
 
 .custom_Top::after {
-  content: url(./assets/images/svg/top_icon.svg);
+  content: url(./assets/images/svg/top_Icon.svg);
   position: absolute;
   top: -5px;
   left: -13px;
@@ -40,7 +40,7 @@
 }
 
 .custom_Bottom::before {
-  content: url(./assets/images/svg/bottom_icon.svg);
+  content: url(./assets/images/svg/bottom_Icon.svg);
   position: absolute;
   bottom: 0px;
   right: -10px;
@@ -146,15 +146,5 @@
   .max_es_bottom {
     right: 22% !important;
     max-width: 170px !important;
-  }
-}
-
-@media (min-width:1920px) {
-  .d_fhd_hidden {
-    display: none !important;
-  }
-
-  .d_fhd_block {
-    display: block !important;
   }
 }

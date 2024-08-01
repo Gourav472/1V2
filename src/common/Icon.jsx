@@ -1,4 +1,4 @@
-export const Heading_Vector = () => (
+export const HeadingVector = () => (
     <svg width="1440" height="59" viewBox="0 0 1440 59" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 1H460L513 58H924L968 1H1440.5" stroke="url(#paint0_linear_198_71)" />
         <defs>
@@ -10,7 +10,7 @@ export const Heading_Vector = () => (
         </defs>
     </svg>
 );
-export const Heading_Vector2 = () => (
+export const HeadingVector2 = () => (
     <svg width="1439" height="59" viewBox="0 0 1439 59" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 1H546.5L575 58H858L883 1H1440.5" stroke="url(#paint0_linear_242_160)" />
         <defs>
@@ -23,7 +23,7 @@ export const Heading_Vector2 = () => (
     </svg>
 
 );
-export const Heading_Vector3 = () => (
+export const HeadingVector3 = () => (
     <svg width="1440" height="59" viewBox="0 0 1440 59" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 1H447.5L483.5 58H971L989.5 1H1440.5" stroke="url(#paint0_linear_198_76)" />
         <defs>
@@ -40,7 +40,7 @@ export const Star = () => (
         <path d="M17.5817 3.89434C17.8811 2.97303 19.1845 2.97303 19.4838 3.89434L22.4691 13.0821C22.603 13.4942 22.987 13.7731 23.4202 13.7731H33.0808C34.0496 13.7731 34.4523 15.0127 33.6686 15.5821L25.853 21.2605C25.5025 21.5152 25.3559 21.9665 25.4897 22.3786L28.475 31.5664C28.7744 32.4877 27.7199 33.2538 26.9362 32.6844L19.1206 27.006C18.7701 26.7514 18.2955 26.7514 17.945 27.006L10.1294 32.6844C9.34568 33.2538 8.29119 32.4877 8.59054 31.5664L11.5758 22.3786C11.7097 21.9665 11.5631 21.5152 11.2126 21.2605L3.39696 15.5821C2.61325 15.0127 3.01602 13.7731 3.98474 13.7731H13.6454C14.0786 13.7731 14.4626 13.4942 14.5964 13.0821L17.5817 3.89434Z" fill="#FFA800" />
     </svg>
 );
-export const Heading_Vector4 = () => (
+export const HeadingVector4 = () => (
     <svg width="1434" height="59" viewBox="0 0 1434 59" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 1H603L636.5 58H784.5L809.5 1H1440.5" stroke="url(#paint0_linear_198_77)" />
         <defs>

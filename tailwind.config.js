@@ -30,7 +30,6 @@ module.exports = {
       },
       boxShadow: {
         "3xl": "3px 3px 0px 0px #0F2440",
-
       },
       colors: {
         light_black: "#141414",
@@ -43,7 +42,7 @@ module.exports = {
       },
       backgroundImage: {
         'header_bg': 'url(./assets/images/webp/header_bg.webp)',
-        'btn_bg': 'url(./assets/images/webp/CommonBtn_Bg.webp)',
+        'btn_bg': 'url(./assets/images/webp/btn_Bg.webp)',
         'featured_sliderbg': 'url(./assets/images/webp/featured_SliderBg.webp)',
         'featured_bg': 'url(./assets/images/webp/featured_Bg.webp)',
         'impact_bg': 'url(./assets/images/webp/impact_Bg.webp)',
