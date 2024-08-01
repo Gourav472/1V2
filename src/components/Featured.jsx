@@ -108,7 +108,7 @@ const Featured = () => {
                     </div>
                     <div className='bg-featured_sliderbg backdrop-blur-lg max-w-[364px] w-full p-5 flex flex-col max-sm:min-h-[400px] sm:min-h-[421px] md:min-h-[461px] bg-100% bg-no-repeat'>
                         <img className='max-w-[324px] w-full' src={featured_Image3} alt="image1" />
-                        <div className=' lex items-center gap-[10px] pt-3'>
+                        <div className='flex items-center gap-[10px] pt-3'>
                             <div className=' flex items-center gap-[6.78px]'>
                                 <p className='font-poppins text-sky_blue font-bold text-[12px] sm:text-[14px] leading-[18px]'>400+</p>
                                 <p className='font-poppins text-white font-normal opacity-70 text-[12px] sm:text-[14px] leading-[18px]'>Active Players</p>

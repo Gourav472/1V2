@@ -20,7 +20,7 @@ const Newsletter = () => {
                             <input type="email" name="email" placeholder='Enter your email' className=' max-sm:text-center outline-none border-none bg-transparent opacity-70 text-white font-poppins font-normal text-[18px] leading-[28px] w-full h-full' />
                             <div className='ps-1 max-sm:hidden'>
                                 <CommonBtn buttonName="Submit Now" />
-                            </div>
+                            </div>  
                         </div>
                         <div className='ps-1 sm:hidden pt-4'>
                             <CommonBtn buttonName="Submit Now" />
