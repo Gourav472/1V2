@@ -3,9 +3,9 @@ export const HeadingVector = () => (
         <path d="M0 1H460L513 58H924L968 1H1440.5" stroke="url(#paint0_linear_198_71)" />
         <defs>
             <linearGradient id="paint0_linear_198_71" x1="-131.5" y1="30" x2="1507" y2="30" gradientUnits="userSpaceOnUse">
-                <stop stop-opacity="0" />
+                <stop stopOpacity="0" />
                 <stop offset="0.511" stop-color="white" />
-                <stop offset="1" stop-opacity="0" />
+                <stop offset="1" stopOpacity="0" />
             </linearGradient>
         </defs>
     </svg>
@@ -15,9 +15,9 @@ export const HeadingVector2 = () => (
         <path d="M0 1H546.5L575 58H858L883 1H1440.5" stroke="url(#paint0_linear_242_160)" />
         <defs>
             <linearGradient id="paint0_linear_242_160" x1="-108" y1="30" x2="1553.5" y2="30" gradientUnits="userSpaceOnUse">
-                <stop stop-opacity="0" />
+                <stop stopOpacity="0" />
                 <stop offset="0.511" stop-color="white" />
-                <stop offset="1" stop-opacity="0" />
+                <stop offset="1" stopOpacity="0" />
             </linearGradient>
         </defs>
     </svg>
@@ -28,9 +28,9 @@ export const HeadingVector3 = () => (
         <path d="M0 1H447.5L483.5 58H971L989.5 1H1440.5" stroke="url(#paint0_linear_198_76)" />
         <defs>
             <linearGradient id="paint0_linear_198_76" x1="0" y1="24.5" x2="1440.5" y2="24.5" gradientUnits="userSpaceOnUse">
-                <stop stop-opacity="0" />
+                <stop stopOpacity="0" />
                 <stop offset="0.511" stop-color="white" />
-                <stop offset="1" stop-opacity="0" />
+                <stop offset="1" stopOpacity="0" />
             </linearGradient>
         </defs>
     </svg>
@@ -45,9 +45,9 @@ export const HeadingVector4 = () => (
         <path d="M0 1H603L636.5 58H784.5L809.5 1H1440.5" stroke="url(#paint0_linear_198_77)" />
         <defs>
             <linearGradient id="paint0_linear_198_77" x1="-146.5" y1="30" x2="1584" y2="0.999999" gradientUnits="userSpaceOnUse">
-                <stop stop-opacity="0" />
+                <stop stopOpacity="0" />
                 <stop offset="0.511" stop-color="white" />
-                <stop offset="1" stop-opacity="0" />
+                <stop offset="1" stopOpacity="0" />
             </linearGradient>
         </defs>
     </svg>

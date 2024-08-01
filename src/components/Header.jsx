@@ -64,11 +64,11 @@ const Header = () => {
                 <CommonBtn buttonName="Get Started" />
               </div>
               <div
-                class={`cursor-pointer relative z-[100] lg:hidden max-sm:scale-75 ${show ? "" : "cross" }`}
+                className={`cursor-pointer relative z-[100] lg:hidden max-sm:scale-75 ${show ? "" : "cross" }`}
                 onClick={() => setShow(!show)}>
-                <span class="nav-toggle-items "></span>
-                <span class="nav-toggle-items my-2"></span>
-                <span class="nav-toggle-items "></span>
+                <span className="nav-toggle-items "></span>
+                <span className="nav-toggle-items my-2"></span>
+                <span className="nav-toggle-items "></span>
               </div>
             </div>
           </div>
